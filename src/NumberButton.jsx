@@ -1,5 +1,5 @@
 export default function NumberButton({value}) {
     return (
-        <button>{value}</button>
+        <button className="numButton button">{value}</button>
     )
 }

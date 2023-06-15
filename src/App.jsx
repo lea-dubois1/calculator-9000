@@ -17,7 +17,7 @@ export default function App() {
     return (
         <>
             <h1>Calculator9000</h1>
-            <BeautifulScreen />
+            <BeautifulScreen className="screen" />
             {listButton}
             {listButtonOp}
             <EqualButton />

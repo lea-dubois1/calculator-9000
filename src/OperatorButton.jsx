@@ -1,5 +1,5 @@
 export default function OperatorButton({value}) {
     return (
-        <button>{value}</button>
+        <button className="opButton button">{value}</button>
     )
 }
